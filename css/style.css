@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    margin: 230px auto;
+}
+
+div fieldset{
+    width: 250px; 
+    height: auto;
+    margin: 0 auto;
+}
+
+div fieldset form#login{
+    align-items: center;
+    padding: 5px;
+}
+
+div fieldset form#login label, div fieldset form#login input.bts{
+    width: 100%;
+    margin: 5px 0 5px 0;
+    height: 25px;
+}
+
+#btn{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    color: #fff;
+    border: 0;
+    background-color: rgb(3, 169, 244);
+}
